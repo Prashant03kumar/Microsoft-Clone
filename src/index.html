@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>
+      Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps
+    </title>
+  </head>
+  <body>
+    <div class="mx-full mx-0">
+      <div class="navbar flex justify-between items-center p-2 md:p-4">
+        <!-- md:p-4 md:px-4 md:mx-3 -->
+        <div class="flex justify-center items-center md:order-2">
+          <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <!-- when i hit breakpoint hide the hamburger -->
+            <div class="line h-[1px] w-6 my-1 bg-black"></div>
+            <div class="line h-[1px] w-6 my-1 bg-black"></div>
+            <div class="line h-[1px] w-6 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden">
+            <img
+              src="../images/search.svg"
+              class="md:hidden w-5 cursor-pointer"
+              alt="search"
+            />
+          </div>
+        </div>
+        <div class="logo text-center flex md:order-1">
+          <img
+            src="../images/logo.png"
+            class="p-2 w-[150px] md:w-[150px]"
+            alt="Microsoft Logo"
+          />
+
+          <div
+            class="nav-links absolute md:relative w-fit md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:items-center md:justify-center md:space-x-4 md:mx-4 -translate-x-96 md:translate-x-0"
+          >
+            <!-- space-xGet started with Tailwind CSS
+          Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
+          
+          It's fast, flexible, and reliable — with zero-runtime-2 will gave space in each item -->
+            <div
+              class="fitem cursor-pointer hover:underline hover:underline-offset-8"
+            >
+              Microsoft 365
+            </div>
+            <div
+              class="fitem cursor-pointer hover:underline hover:underline-offset-8"
+            >
+              Office
+            </div>
+            <div
+              class="fitem cursor-pointer hover:underline hover:underline-offset-8"
+            >
+              Windows
+            </div>
+            <div
+              class="fitem cursor-pointer hover:underline hover:underline-offset-8"
+            >
+              Surface
+            </div>
+            <div
+              class="fitem cursor-pointer hover:underline hover:underline-offset-8"
+            >
+              Xbox
+            </div>
+            <div
+              class="fitem cursor-pointer hover:underline hover:underline-offset-8"
+            >
+              Support
+            </div>
+          </div>
+        </div>
+        <div class="cart text-center md:order-3 flex md:space-x-6">
+          <div class="search hidden md:inline">All Microsoft</div>
+          <img
+            src="../images/search.svg"
+            class="hidden md:block md:n w-5 cursor-pointer"
+            alt="search"
+          />
+          <div class="flex flex-row space-x-6">
+            <span class="inline-flex items-center space-x-2 cursor-pointer">
+              <span class="hidden md:block">Cart</span>
+              <img
+                src="../images/shopping-cart-outline.svg"
+                class="w-[20px]"
+                alt="cart"
+              />
+            </span>
+            <span class="inline-flex items-center space-x-2 cursor-pointer">
+              <img
+                src="../images/account.svg"
+                class="w-[20px] cursor-pointer"
+                alt="account logo"
+              />
+            </span>
+          </div>
+        </div>
+        <!-- when we hit brekapoint the order of icon wil rearrange -->
+      </div>
+      <div class="slider flex flex-col-reverse md:flex-row bg-[#eedfd1] mx-2">
+        <div
+          class="left flex flex-col justify-center items-center md:items-baseline py-12"
+        >
+          <h1 class="text-2xl font-medium md:text-4xl mx-5">Microsoft 365</h1>
+          <p class="w-3/4 mx-5 text-center md:text-left">
+            Introducing Microsoft 365 Premium with our highest usage limits and
+            exclusive Copilot features for AI power users.
+          </p>
+          <button
+            class="text-white bg-black px-4 py-2 my-6 font-bold cursor-pointer"
+          >
+            Shop Now
+          </button>
+        </div>
+        <div class="right">
+          <img src="../images/image.png" class="md:w-[64rem]" alt="" />
+        </div>
+      </div>
+      <div
+        class="promo space-y-1 flex flex-col md:flex-row md:justify-center md:items-center md:space-x-4 my-10"
+      >
+        <div
+          class="item1 flex items-center mx-4 space-x-2 mt-4 md:flex-col md:w-50"
+        >
+          <img class="w-15" src="../images/bkMicro.svg" alt="" />
+          <span class="font-medium">Choose your Microsoft 365</span>
+        </div>
+        <div class="item2 flex items-center mx-4 space-x-2 mt-4 md:flex-col">
+          <img class="w-15" src="../images/xbox.svg" alt="" />
+          <span class="font-medium">Shop Xbox</span>
+        </div>
+        <div class="item3 flex items-center mx-4 space-x-2 mt-4 md:flex-col">
+          <img class="w-15" src="../images/window11.svg" alt="" />
+          <span class="font-medium">Get Windows 11</span>
+        </div>
+        <div class="item4 flex items-center mx-4 space-x-2 md:flex-col">
+          <img class="w-15" src="../images/explore.svg" alt="" />
+          <span class="font-medium">Explore Surface Devices</span>
+        </div>
+      </div>
+      <div
+        class="cards grid gap-6 p-6 grid-cols-[repeat(auto-fit,minmax(250px,1fr))] mx-4"
+      >
+        <div class="card1 bg-blue-50 shadow-2xl w-85 h-105 rounded-sm">
+          <img
+            src="../images/card1.avif"
+            class="w-full rounded-t-sm"
+            alt="card1 image"
+          />
+          <div class="card1-content p-6 mt-2">
+            <h2 class="font-bold text-xl mb-3">Surface Pro, Copilot+ PC</h2>
+            <p class="mb-3">
+              This laptop's unrivalled flexibility and AI features like
+              Cocreator, enable you to do more than you ever imagined.
+            </p>
+            <button class="bg-blue-500 p-2 rounded-md">Learn more</button>
+          </div>
+        </div>
+        <div class="card2 bg-blue-50 shadow-2xl w-85 h-105 rounded-sm">
+          <img
+            src="../images/card2.avif"
+            class="w-full rounded-t-sm"
+            alt="card1 image"
+          />
+          <div class="card2-content p-6 mt-2">
+            <h2 class="font-bold text-xl mb-3">Microsoft Edge</h2>
+            <p class="mb-3">
+              World-class performance with more privacy, more productivity and
+              more value while you browse.
+            </p>
+            <button class="bg-blue-500 p-2 rounded-md">Download now</button>
+          </div>
+        </div>
+        <div class="card3 bg-blue-50 shadow-2xl w-85 h-105 rounded-sm">
+          <img
+            src="../images/card3.avif"
+            class="w-full rounded-t-sm"
+            alt="card1 image"
+          />
+          <div class="card3-content p-6 mt-2">
+            <h2 class="font-bold text-xl mb-3">Xbox Game Pass Ultimate</h2>
+            <p class="mb-3 h-">
+              Play new titles on day one. Enjoy hundreds of high-quality games
+              with friends on console, PC or cloud.
+            </p>
+            <button class="bg-blue-500 p-2 rounded-md">Join now</button>
+          </div>
+        </div>
+        <div class="card4 bg-blue-50 shadow-2xl w-85 h-105 rounded-sm">
+          <img
+            src="../images/card4.avif"
+            class="w-full rounded-t-sm"
+            alt="card1 image"
+          />
+          <div class="card4-content p-6">
+            <h2 class="font-bold text-xl mb-3">Xbox Series X</h2>
+            <p class="mb-15">The fastest, most powerful Xbox ever.</p>
+            <button class="bg-blue-500 p-2 rounded-md mt-auto">
+              Shop Xbox Series X
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="advertise md:bg-gray-200 mx-4 p-2 md:mx-8 space-y-6 flex flex-col-reverse md:flex-row md:justify-center"
+      >
+        <div
+          class="content space-y-2 p-4 w-full md:flex md:justify-center md:items-center"
+        >
+          <div class="md:flex md:flex-col md:justify-center md:items-start">
+            <h2 class="font-semibold text-2xl">Xbox Series S</h2>
+            <p class="mb-4">Next-gen performance in the smallest Xbox ever</p>
+            <button class="bg-blue-500 p-2 rounded-sm">
+              Shop Xbox Series S
+            </button>
+          </div>
+        </div>
+        <img
+          class="object-cover h-auto w-full"
+          src="../images/advertise.avif"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
