@@ -205,10 +205,11 @@
         </div>
       </div>
       <div
-        class="advertise md:bg-gray-200 mx-4 p-2 md:mx-8 space-y-6 flex flex-col-reverse md:flex-row md:justify-center"
+        class="advertise md:bg-gray-200 md:mx-8 flex flex-col-reverse md:flex-row md:justify-center md:items-stretch"
       >
+        <!-- Content Section -->
         <div
-          class="content space-y-2 p-4 w-full md:flex md:justify-center md:items-center"
+          class="content space-y-2 p-4 w-full md:w-1/2 md:flex md:justify-center md:items-center"
         >
           <div class="md:flex md:flex-col md:justify-center md:items-start">
             <h2 class="font-semibold text-2xl">Xbox Series S</h2>
@@ -218,11 +219,15 @@
             </button>
           </div>
         </div>
-        <img
-          class="object-cover h-auto w-full"
-          src="../images/advertise.avif"
-          alt=""
-        />
+
+        <!-- Image Section -->
+        <div class="w-full md:w-1/2 md:h-auto flex">
+          <img
+            class="w-full h-full object-cover"
+            src="../images/advertise.avif"
+            alt="Xbox Series S"
+          />
+        </div>
       </div>
     </div>
   </body>
